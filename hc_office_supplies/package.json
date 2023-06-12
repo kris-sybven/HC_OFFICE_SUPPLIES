@@ -22,7 +22,13 @@
     },
     "requires": {
       "db": {
-        "kind": "sql"
+        "kind": "sqlite",
+        "credentials": {
+          "database": "db.sqlite"
+        }
+      },
+      "credentials": {
+        "database": "db.sqlite"
       }
     }
   }
